@@ -6,7 +6,9 @@ Neurona is an Arduino Library which allows boards to feed Artificial Neural Netw
 * Perceptron (to be implemented)
 * Learning Vector Quantization (LVQ-1 - to be implemented)
 
-Check also the [documentation][NeuronaDocs] and [MorettiCB][MorettiCBBlog]'s blog (or simply click the *training* link which follows an architecture) to download and run the training mode of the aforementioned archictectures, so its outputs (the adjusted weights) can be used along with a specific network topology in operation mode.
+Check also [MorettiCB][MorettiCBBlog]'s blog (or simply click the *training* link which follows an architecture) to download and run the training mode of the aforementioned archictectures, so its outputs (the adjusted weights) can be used along with a specific network topology in operation mode.
+
+This documentation encompasses the code reference and some examples, which can be easily accessed with through the left menu.
 
 ## Download and Installation
 
@@ -23,7 +25,7 @@ The following list enumerates the boards which Neurona have been tested.
 * Arduino Uno
 * Arduino Mega
 
-If your board is not here, it simply means it was not tested yet. You can also test Neurona in your board and send us a feedback through an issue :)
+If your board is not here, it simply means it was not tested yet. You can also test Neurona in your board and send us a feedback through an [issue](https://github.com/MorettiCB/Neurona/issues) :)
 
 ## License
 
@@ -32,7 +34,6 @@ Neurona is free software: you can redistribute it and/or modify it under the ter
 This library is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of *merchantability* or *fitness for a particular purpose*. See the [GNU General Public License][GNULink] for more details.
 
 [MLPTrainingLink]: http://www.moretticb.com/blog/multilayer-perceptron-implementation-in-c/
-[NeuronaDocs]: http://www.moretticb.com/Neurona
 [MorettiCBBlog]: http://www.moretticb.com
 [NeuronaDownloadLink]: http://www.github.com/MorettiCB/Neurona
 [ArduinoLibInstallHelp]: http://www.arduino.cc/en/guide/libraries
