@@ -6,7 +6,7 @@ The Multi-Layer Perceptron ANN Architecture. This architecture can be used to pe
 
 ###MLP()
 
-Initializes an MLP (operation mode) architecture from a [trained][MLPTrainingLink] topology with the adjusted synaptic weights.
+Initializes an MLP (operation mode) architecture from a [trained](#training-mlp) topology with the adjusted synaptic weights.
 
 ####Syntax
 
@@ -19,7 +19,7 @@ MLP(inputs, outputs, topology, activFunc, weights, usingPGM);
 * ```outputs``` is the number of network outputs.
 * ```topology``` is an array indicating the size of each layer (including ```outputs```), ending with -1.
 * ```activFunc``` indicates the activation function to be used.
-* ```weights``` is an array with the adjusted weights (obtained in [training][MLPTrainingLink]).
+* ```weights``` is an array with the adjusted weights (obtained in [training](#training-mlp)).
 * ```usingPGM``` flags whether ```weights``` is a [PROGMEM][ArduinoPROGMEM] variable.
 
 ####Example
