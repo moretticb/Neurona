@@ -3,7 +3,6 @@
 Neurona is an Arduino Library which allows boards to feed Artificial Neural Network (ANN) structures in order to perform tasks such as pattern recognition (classification), non-linear regression, function approximation and time-series prediction from the implemented architectures:
 
 * Multi-Layer Perceptron (MLP) - [**training**](#training)
-* Perceptron (to be implemented)
 * Learning Vector Quantization (LVQ-1 - to be implemented)
 
 Check also [MorettiCB][MorettiCBBlog]'s blog (or simply click a *training* link which follows an architecture) to choose a way to have a trained network, so the obtained collection of adjusted weights can be used with Neurona in operation mode.
