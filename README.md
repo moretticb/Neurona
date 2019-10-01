@@ -1,4 +1,4 @@
-#Intro
+## Intro
 
 Neurona is an Arduino Library which allows boards to feed Artificial Neural Network (ANN) structures in order to perform tasks such as pattern recognition (classification), non-linear regression, function approximation and time-series prediction from the implemented architectures:
 
